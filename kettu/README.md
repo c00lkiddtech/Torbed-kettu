@@ -1,26 +1,19 @@
 # Torbed for Kettu
 
-embeds `.onion` links on kettu / revenge / vendetta mobile.
+embeds `.onion` links on kettu (vendetta).
 
-mobile can't talk to tor socks, so this just drops a purple rich embed with the host + url under the message (same idea as desktop, without the og preview fetch).
+mobile can't hit tor socks, so this just puts a purple rich embed with the host + url under the message. for real og previews use the desktop plugin.
 
 ## install
 
-settings → plugins → **+** → paste one of these:
+settings → plugins → **+** → paste:
 
 ```
-https://raw.githubusercontent.com/c00lkiddtech/Torbed-kettu/main
+https://c00lkiddtech.github.io/Torbed-kettu
 ```
 
-or the nested path (same files):
+enable **Torbed**. if you installed from a raw github url before, remove it and add this one.
 
-```
-https://raw.githubusercontent.com/c00lkiddtech/Torbed-kettu/main/kettu
-```
+## desktop
 
-enable **Torbed**. if it was already installed from a dead url, remove it first then add again.
-
-## notes
-
-- desktop version (real og previews via tor): https://github.com/c00lkiddtech/Torbed
-- needs a channel reload / new messages to show on stuff already on screen
+https://github.com/c00lkiddtech/Torbed
