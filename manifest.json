@@ -1,0 +1,14 @@
+{
+  "name": "Torbed",
+  "description": "Embeds .onion links in chat. Kettu/mobile port: shows a native embed with the onion host and link (mobile cannot fetch previews through Tor; use the desktop plugin for full Open Graph previews).",
+  "authors": [
+    {
+      "name": "c00lkiddtech"
+    }
+  ],
+  "main": "index.js",
+  "hash": "349ab69413c4b5826fc3575934d791bc08f1eb9077af9b93fa6cd46632e50d43",
+  "vendetta": {
+    "icon": "ic_link_24px"
+  }
+}
